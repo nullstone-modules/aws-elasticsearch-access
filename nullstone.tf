@@ -18,4 +18,5 @@ locals {
   domain_security_group_id = data.ns_connection.opensearch.outputs.domain_security_group_id
   domain_arn               = data.ns_connection.opensearch.outputs.domain_arn
   domain_endpoint          = data.ns_connection.opensearch.outputs.domain_endpoint
+  domain_port              = 443
 }
