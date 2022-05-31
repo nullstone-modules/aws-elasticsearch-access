@@ -1,0 +1,13 @@
+org_name: nullstone
+name: aws-opensearch-access
+friendly_name: OpenSearch Access
+description: Grants an application access to an OpenSearch domain
+category: capability/datastores
+type: capability/opensearch-access/aws
+appCategories:
+    - app/container
+    - app/serverless
+layer: service
+is_public: true
+provider_types:
+    - aws
