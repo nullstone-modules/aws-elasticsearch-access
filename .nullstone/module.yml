@@ -1,13 +1,15 @@
 org_name: nullstone
-name: aws-opensearch-access
-friendly_name: OpenSearch Access
-description: Grants an application access to an OpenSearch domain
-category: capability/datastores
-type: capability/opensearch-access/aws
-appCategories:
-    - app/container
-    - app/serverless
-layer: service
-is_public: true
+name: aws-elasticsearch-access
+friendly_name: Elasticsearch Access
+description: Grants an application access to an Elasticsearch domain.
+category: capability
+subcategory: datastores
 provider_types:
     - aws
+platform: elasticsearch
+subplatform: ""
+type: capability/opensearch-access/aws
+appCategories:
+    - container
+    - serverless
+is_public: true

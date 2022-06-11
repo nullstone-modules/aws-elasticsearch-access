@@ -1,1 +1,1 @@
-# aws-opensearch-access
+# aws-elasticsearch-access

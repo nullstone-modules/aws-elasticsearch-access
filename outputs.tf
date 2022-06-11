@@ -1,7 +1,7 @@
 output "env" {
   value = [
     {
-      name  = "OPENSEARCH_URL"
+      name  = "ELASTICSEARCH_URL"
       value = local.db_url
     }
   ]
